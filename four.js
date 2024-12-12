@@ -1,3 +1,10 @@
+
+//Crea un array con una lista de palabras (puedes inventarlas).
+// Usa filter para encontrar las palabras que tienen más de 5 letras.
+// Invierte las letras de cada palabra utilizando map y split/reverse/join.
+// Ordena las palabras por longitud usando una función personalizada en sort.
+
+
 const array = ["Gonzalo", "Pepe", "Pene", "Pito", "Cuadro"];
 let arrayHecho = array.filter((a) => a.length >= 5);
 console.log (arrayHecho);

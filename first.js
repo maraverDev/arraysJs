@@ -1,3 +1,10 @@
+
+// Ejercicio 1: Manipulación básica de arrays
+// Crea un array con los números del 1 al 10.
+// Usa el método map para crear un nuevo array que contenga los cuadrados de los números originales.
+// Filtra el array original para obtener solo los números pares.
+// Usa reduce para calcular la suma de todos los números del array.
+
 const oneToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const map = oneToTen.map((i) => i * i);
 console.log(map);

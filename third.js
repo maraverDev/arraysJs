@@ -1,3 +1,18 @@
+
+// Define un array de objetos que representen estudiantes, con las propiedades nombre, edad y nota:
+// const arrEstudiantes = [
+//     { nombre: "Ana", edad: 20, nota: 8 },
+//     { nombre: "Luis", edad: 22, nota: 5 },
+//     { nombre: "María", edad: 19, nota: 7 },
+//     { nombre: "Carlos", edad: 21, nota: 4 }
+// ];
+// Usa filter para obtener los estudiantes aprobados (nota mayor o igual a 5).
+// Ordena a los estudiantes por edad con sort.
+// Usa map para crear un array que solo contenga los nombres de los estudiantes.
+// Calcula la nota promedio de los estudiantes con reduce.
+
+
+
 const arrEstudiantes = [
     { nombre: "Ana", edad: 20, nota: 8 },
     { nombre: "Luis", edad: 22, nota: 5 },
