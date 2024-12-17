@@ -16,11 +16,11 @@ console.log(alfa);
 
 const cM = ciudades.some((t) => t.startsWith("M"));
 
-console.log(cM);
+console.log("Existe alguna que empiece por M " + cM);
 // false
 
 const every = ciudades.every((t) => t.length > 4);
-console.log(every);
+console.log("Todas tienen mas de 4 letras " + every);
 // true
 
 

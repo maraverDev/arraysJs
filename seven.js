@@ -14,17 +14,24 @@ const numerosAleatorios = [];
 for (let i = 0; i < 10; i++) {
   numerosAleatorios.push(Math.floor(Math.random() * 100) + 1);
 }
-console.log("Números aleatorios:", numerosAleatorios);
+console.log("Randoms " + numerosAleatorios);
 
 // Encuentra el número más alto con Math.max y spread operator
 const maximo = Math.max(...numerosAleatorios);
-console.log("Número más alto:", maximo);
+console.log("Maximo " + maximo);
 
 // Encuentra el número más bajo de forma similar
 const minimo = Math.min(...numerosAleatorios);
-console.log("Número más bajo:", minimo);
+console.log("Minimo " + minimo);
 
 // Calcula la cantidad de números impares usando filter
 const numerosImpares = numerosAleatorios.filter(numero => numero % 2 !== 0);
-console.log("Números impares:", numerosImpares);
-console.log("Cantidad de números impares:", numerosImpares.length);
+console.log("Impares " + numerosImpares);
+console.log("Cantidad impares " + numerosImpares.length);
+
+
+// Randoms 13,48,62,40,52,36,63,95,99,88
+// Maximo 99
+// Minimo 13
+// Impares  [ 13, 63, 95, 99 ]
+// Cantidad impares  4

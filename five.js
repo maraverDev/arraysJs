@@ -12,10 +12,13 @@ const numY = [1, 2, 3, 4, 6];
 let sumaArrays = numX.map((elemento, indice) => elemento + numY[indice]);
 
 console.log(sumaArrays)
+// [ 2, 4, 6, 8, 12 ]
 
 
 let multIndice = numX.map((elemento, indice) => elemento * indice);
 console.log(multIndice);
+// [ 0, 2, 6, 12, 24 ]
 
 let first = numX.findIndex(num => num > 5)
 console.log(first)
+// 4

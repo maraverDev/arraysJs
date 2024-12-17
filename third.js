@@ -36,3 +36,4 @@ console.log(ordenarEdad);
 
 const reduce = arrEstudiantes.reduce((a,b) => (a+b.nota), 0)/arrEstudiantes.length;
 console.log(reduce);
+// 6
